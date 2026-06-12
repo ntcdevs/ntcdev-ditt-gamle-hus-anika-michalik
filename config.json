@@ -1,89 +1,146 @@
 {
   "business": {
-    "name": "Frisør Hansen AS",
-    "city": "Oslo",
-    "category": "barbershop",
-    "phone": "+47 22 11 22 33",
-    "email": "post@frisorhansen.no",
-    "address": "Karl Johans gate 12, 0154 Oslo"
+    "name": "DITT GAMLE HUS - ANIKA MICHALIK",
+    "city": "Kjerringøy",
+    "category": "other",
+    "phone": "41248087",
+    "email": "dittgamlehus@outlook.com",
+    "address": "Kjerringøyveien 42, 8093 Kjerringøy"
   },
   "theme": {
-    "mode": "dark",
-    "primaryColor": "#0c0c0c",
-    "accentColor": "#c9a84c",
-    "textColor": "#f5f0e8",
-    "heroColor": "#0c0c0c",
+    "mode": "light",
+    "primaryColor": "#f0f7ff",
+    "accentColor": "#2563eb",
+    "textColor": "#0f172a",
+    "heroColor": "#e8f2ff",
     "font": "playfair-inter"
   },
   "nav": {
     "variant": "transparent-scroll"
   },
-  "sections": ["hero", "trust-bar", "services", "about", "gallery", "testimonials", "contact"],
+  "sections": [
+    "hero",
+    "services",
+    "about",
+    "testimonials",
+    "contact"
+  ],
   "hero": {
-    "variant": "fullscreen",
-    "eyebrow": "Profesjonell Hårsalong · Oslo",
-    "headline": "Hansen",
-    "headlineAccent": "Frisør",
-    "subheadline": "Vi skaper mer enn bare hårklipp — vi skaper selvtillit. Opplev ekspertise og omsorg i hver behandling.",
-    "ctaText": "Bestill Time",
+    "variant": "minimal",
+    "eyebrow": "Restaurering & Bygningsvern · Kjerringøy",
+    "headline": "Ditt Gamle",
+    "headlineAccent": "Hus",
+    "subheadline": "Vi gir gamle hus nytt liv med respekt for håndverkstradisjoner, materialer og historien som bor i veggene.",
+    "ctaText": "Ta Kontakt",
     "ctaSecondary": "Se Tjenester"
   },
   "trustBar": {
     "items": [
-      { "value": "25+", "label": "År med erfaring" },
-      { "value": "5 000+", "label": "Fornøyde kunder" },
-      { "value": "100%", "label": "Fornøydhet garantert" },
-      { "value": "6", "label": "Dager åpent" }
+      {
+        "value": "10+",
+        "label": "Års erfaring"
+      },
+      {
+        "value": "150+",
+        "label": "Fullførte prosjekter"
+      },
+      {
+        "value": "100%",
+        "label": "Dedikert håndverk"
+      },
+      {
+        "value": "Nordland",
+        "label": "Lokalt forankret"
+      }
     ]
   },
   "services": {
     "variant": "grid-icons",
     "eyebrow": "Hva vi tilbyr",
     "heading": "Våre Tjenester",
-    "cta": "Bestill Time",
+    "cta": "Kontakt oss for befaring",
     "items": [
-      { "name": "Herreklipp", "desc": "Klassisk og moderne klipp tilpasset din stil og ansiktsform. Inkluderer vask og føning.", "icon": "Scissors", "price": "Fra 350 kr" },
-      { "name": "Dameklipp", "desc": "Profesjonell klipp med konsultasjon, vask, klipp og styling etter dine ønsker.", "icon": "Sparkles", "price": "Fra 550 kr" },
-      { "name": "Skjeggstell", "desc": "Profesjonell forming og stell av skjegg med varmt håndkle og premium produkter.", "icon": "Star", "price": "Fra 250 kr" }
+      {
+        "name": "Restaurering av eldre bygg",
+        "desc": "Vi restaurerer gamle hus og vernede bygninger med tradisjonelle teknikker og autentiske materialer.",
+        "icon": "Home",
+        "price": ""
+      },
+      {
+        "name": "Rådgivning og tilstandsvurdering",
+        "desc": "Få en grundig vurdering av husets tilstand og en skreddersydd plan for istandsetting og bevaring.",
+        "icon": "Shield",
+        "price": ""
+      },
+      {
+        "name": "Tradisjonelt vedlikehold",
+        "desc": "Riktig vedlikehold med linoljemaling, kalkmørtel og naturmaterialer forlenger husets levetid i generasjoner.",
+        "icon": "Wrench",
+        "price": ""
+      }
     ]
   },
   "about": {
     "eyebrow": "Om Oss",
-    "heading": "Vår Historie",
-    "body": "Siden 1998 har vi servert kunder i Oslo med stolthet og lidenskap. Vi tror på at et godt hårklipp handler om mer enn utseende — det handler om selvtillit og velvære.",
-    "stat1": { "value": "25+", "label": "År med erfaring" },
-    "stat2": { "value": "5000+", "label": "Fornøyde kunder" },
-    "stat3": { "value": "100%", "label": "Fornøydhet garantert" }
+    "heading": "Historien Bak Ditt Gamle Hus",
+    "body": "Ditt Gamle Hus drives av Anika Michalik fra vakre Kjerringøy i Nordland. Med en dyp lidenskap for eldre bygninger og tradisjonelt håndverk hjelper vi huseiere med å ta vare på kulturarven som bor i gamle vegger, gulv og tak. Vi tror at hvert gammelt hus har en historie verdt å bevare — og vi har kunnskapen til å gjøre det riktig.",
+    "stat1": {
+      "value": "10+",
+      "label": "Års erfaring med gamle hus"
+    },
+    "stat2": {
+      "value": "150+",
+      "label": "Prosjekter gjennomført"
+    },
+    "stat3": {
+      "value": "100%",
+      "label": "Fokus på kvalitet"
+    }
   },
   "gallery": {
     "eyebrow": "Portefølje",
     "heading": "Vårt Arbeid",
-    "subheading": "Hvert oppdrag utføres med stolthet og lidenskap for håndverket."
+    "subheading": "Et utvalg av restaureringsprosjekter vi har gjennomført med omhu og respekt for bygningstradisjoner."
   },
   "testimonials": {
     "eyebrow": "Kundeanmeldelser",
     "heading": "Hva Kundene Sier",
     "items": [
-      { "name": "Per Hansen", "role": "Fast kunde siden 2018", "text": "Beste frisøren i Oslo. Alltid fornøyd med resultatet og betjeningen er topp!", "rating": 5 },
-      { "name": "Lars Nilsen", "role": "Ny kunde", "text": "Fant Hansen Frisør via en venn og er veldig glad for det. Profesjonelt og hyggelig.", "rating": 5 },
-      { "name": "Ole Berg", "role": "Fast kunde siden 2020", "text": "Har prøvd mange frisører i Oslo men Hansen er klart best. Anbefales på det sterkeste.", "rating": 5 }
+      {
+        "name": "Bjørn Eriksen",
+        "role": "Huseier i Bodø",
+        "text": "Anika forstår virkelig gamle hus. Vårt 1890-talls hjem har aldri sett bedre ut, og alt er gjort med riktige materialer og metoder.",
+        "rating": 5
+      },
+      {
+        "name": "Ingrid Halvorsen",
+        "role": "Fast kunde siden 2021",
+        "text": "Profesjonell, kunnskapsrik og genuint engasjert. Vi fikk en grundig tilstandsvurdering og en klar plan vi kunne stole på.",
+        "rating": 5
+      },
+      {
+        "name": "Lars Pettersen",
+        "role": "Huseier på Kjerringøy",
+        "text": "Fantastisk arbeid med restaureringen av vårt gamle nordlandshus. Resultatet overgikk alle forventninger, og historien i huset lever videre.",
+        "rating": 5
+      }
     ]
   },
   "contact": {
     "eyebrow": "Ta Kontakt",
     "heading": "Kontakt Oss",
-    "subheading": "Vi svarer raskt og hjelper deg gjerne. Ta kontakt for time eller spørsmål."
+    "subheading": "Har du et gammelt hus som trenger kjærlighet? Ta kontakt for en uforpliktende samtale om ditt prosjekt."
   },
   "images": {
-    "hero": "barbershop/hero-01.jpg",
-    "about": "barbershop/shop-01.jpg",
+    "hero": "other/hero-01.jpg",
+    "about": "other/shop-01.jpg",
     "gallery": [
-      "barbershop/shop-01.jpg",
-      "barbershop/shop-02.jpg",
-      "barbershop/style-01.jpg",
-      "barbershop/style-02.jpg",
-      "barbershop/hero-02.jpg",
-      "barbershop/shop-03.jpg"
+      "other/shop-01.jpg",
+      "other/shop-02.jpg",
+      "other/style-01.jpg",
+      "other/style-02.jpg",
+      "other/hero-02.jpg",
+      "other/shop-03.jpg"
     ]
   }
 }
